@@ -1,4 +1,4 @@
-# Tracking Analysis of Mouse Movement in Open Field Tests
+# Feature Extraction of Open Field Mouse Movement Data to Infer Intent
 The goal of this project is to derive metrics from movement tracking data from behavior experiments. Namely, the entry patterns of mice into a zone of interest were isolated as 'traces', interpreted by a convolutional neural network and ultimately categorized by means of clustering using k-means. Various additonal metrics were also derived which can be viewed in the tableau dashboard hosted here:
 
 https://public.tableau.com/app/profile/ethan3813/viz/Refactored_Behavior_Project/Dashboard1?publish=yes
