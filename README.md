@@ -1,16 +1,28 @@
 # Feature Extraction of Open Field Mouse Movement Data to Infer Intent
-The goal of this project is to derive metrics from movement tracking data from behavior experiments. Namely, the entry patterns of mice into a zone of interest were isolated as 'traces', interpreted by a convolutional neural network and ultimately categorized by means of clustering using k-means. Various additonal metrics were also derived which can be viewed in the tableau dashboard hosted here:
+The goal of the following code is the feature extraction and analysis of time series movement data taken from a place-preference 'foraging' behavioral experiment paradigm. This analysis focused on the 5-second time interval prior to zone-entry for an animal during testing (hereby referred to as 'traces'). The primary project objectives were to:
+- characterize traces with featurization and clustering as well as additional computed metrics.
+- Analyze relative proportions of trace-clusters across different testing sessions for the same animal.
+
+Feature extraction was achieved with 2-dimensional plotting, convolutional neural network vectorization (VGG16), dimensionality reduction (PCA) and finally clustering (K-Means) before final analysis. Additional trace metrics were also computed and added to the analysis which can be viewed in the links below.
+
+
+### Project Overview
+<img src="./images/Project_Diagram.png" width="930" />
+
+
+#### Tableau Dashboard
+Analysis Tableau dashboard hosted here:
 
 https://public.tableau.com/app/profile/ethan3813/viz/Refactored_Behavior_Project/Dashboard1?publish=yes
+<img src="./images/Dashboard_Snapshot.png" width="400" />
 
-The experiment paper can be viewed here:
+The study paper can be viewed here:
 
 https://www.nature.com/articles/s42003-023-04429-6
-### Project Overview
 
-<img src="./images/Project_Overview.png" width="400" />
 
-#### Data Input Requirements
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+#### Data Input Notes
 - #### Example File:
 	- **File Type**: .csv
 	- **Name**: C58_R10_ChR2_mPFC_30Hz_S01_P02_N_NON_NON
