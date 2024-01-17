@@ -11,7 +11,6 @@ Feature extraction was achieved with 2-dimensional plotting, convolutional neura
 
 
 #### Tableau Dashboard
-Analysis Tableau dashboard hosted here:
 
 https://public.tableau.com/app/profile/ethan3813/viz/Refactored_Behavior_Project/Dashboard1?publish=yes
 <img src="./images/Dashboard_Snapshot.png" width="400" />
